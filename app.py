@@ -236,7 +236,7 @@ def create_user(username: str, password: str) -> tuple:
     )
     con.commit()
     con.close()
-    return True, "Akun berhasil dibuat. Silakan login."
+    return True, f"🎉 Akun '{username}' berhasil dibuat!\n   🔐 RSA Key Pair (2048-bit) telah di-generate untuk akun Anda.\n   Silakan login untuk mulai menggunakan SecureVault."
 
 def authenticate(username: str, password: str):
     con = db_conn()
