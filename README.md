@@ -6,15 +6,15 @@
 ![Cryptography](https://img.shields.io/badge/Cryptography-RSA%20%2B%20Myszkowski-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Academic-orange?style=for-the-badge)
 
-**Aplikasi Penyimpanan File dengan Enkripsi Hybrid**  
+**Aplikasi Penyimpanan File dengan Enkripsi Hybrid**
 _Menggabungkan Algoritma Klasik (Myszkowski) dan Modern (RSA)_
 
 ---
 
 ### 👨‍💻 Credits
 
-|               Nama               |      NIM       |   Kelas   |
-| :------------------------------: | :------------: | :-------: |
+|                  Nama                  |      NIM      |   Kelas   |
+| :------------------------------------: | :------------: | :-------: |
 | **Farros Rifantiarno Ramadhani** | A11.2024.15694 | A11.43UG1 |
 
 **Tugas Akhir Mata Kuliah Kriptografi**
@@ -40,8 +40,8 @@ _Menggabungkan Algoritma Klasik (Myszkowski) dan Modern (RSA)_
 
 **SecureVault** adalah aplikasi CLI (Command Line Interface) untuk menyimpan file secara aman menggunakan **Hybrid Encryption** yang menggabungkan:
 
-| Algoritma                    | Tipe   | Fungsi                          |
-| ---------------------------- | ------ | ------------------------------- |
+| Algoritma                          | Tipe   | Fungsi                          |
+| ---------------------------------- | ------ | ------------------------------- |
 | **Myszkowski Transposition** | Klasik | Enkripsi file (Layer 1)         |
 | **RSA 2048-bit**             | Modern | Proteksi kunci (Layer 2)        |
 | **SHA-256**                  | Hash   | Password hashing & OAEP padding |
@@ -88,8 +88,8 @@ Output: LL + LR + EOOD + HW = "LLLREOODHW"
 
 Algoritma asimetris modern dengan pasangan kunci:
 
-| Key             | Fungsi   | Akses                   |
-| --------------- | -------- | ----------------------- |
+| Key                   | Fungsi   | Akses                   |
+| --------------------- | -------- | ----------------------- |
 | **Public Key**  | Enkripsi | Publik (siapa saja)     |
 | **Private Key** | Dekripsi | Rahasia (hanya pemilik) |
 
@@ -326,7 +326,7 @@ CREATE TABLE files (
 ## 📚 Referensi
 
 - [Myszkowski Transposition Cipher](https://en.wikipedia.org/wiki/Transposition_cipher)
-- [RSA Cryptosystem](<https://en.wikipedia.org/wiki/RSA_(cryptosystem)>)
+- [RSA Cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
 - [SHA-256](https://en.wikipedia.org/wiki/SHA-2)
 - [Python Cryptography Library](https://cryptography.io/)
 
@@ -336,6 +336,6 @@ CREATE TABLE files (
 
 **Made with ❤️ for Cryptography Course**
 
-_Universitas Dian Nuswantoro - 2024_
+_Universitas Dian Nuswantoro - 2026_
 
 </div>
