@@ -1,3 +1,8 @@
+#Farros Rifantiarno Ramadhani
+#A11.2024.15694
+#A11.43UG1
+#Link Repository: https://github.com/Elnathz/filestorageRSA_Myzowski.git
+#Link Drive: https://drive.google.com/drive/folders/1eezXD3LixQilOwCtP8GdIlUJAJN2Gm7n?usp=sharing
 import os
 import uuid
 import sqlite3
@@ -14,7 +19,7 @@ from cryptography.hazmat.primitives import hashes, serialization
 # ----------------------------
 # Config & paths
 # ----------------------------
-APP_TITLE = "SecureVault"
+APP_TITLE = "File Storage APP"
 DB_PATH = os.path.join("data", "app.db")
 STORAGE_DIR = "storage"
 
@@ -598,7 +603,7 @@ def menu_login():
 def menu_upload(user: dict, classic_key: str):
     print("\n=== UPLOAD FILE ===")
     if not classic_key:
-        print("❌ Classic Key belum diset! Silakan set dulu di menu 5.")
+        print("❌ Classic Key belum diset! Silakan set dulu di menu 7.")
         input("\nTekan Enter untuk melanjutkan...")
         return
 
